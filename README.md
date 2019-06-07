@@ -21,5 +21,9 @@ explorer to increase your insight into the health of your underlying cloud infra
 
 ### Guide
 1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
+
 2.) Using the navigation menu in the upper-left hand corner, select ```Compute```.
 ![1.)](/imgs/m1.png?raw=true)  
+
+3.) Using the navigation menu in the upper-left hand corner, select ```Monitoring``` and then ```Service Metrics```
+![1.)](/imgs/m2.png?raw=true)  
