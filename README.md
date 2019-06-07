@@ -13,3 +13,13 @@ Upon completion of the demo, users should have a deeper understanding of how the
 to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
 
 ## OCI Service Metrics & Metrics Explorer
+### Prerequisites
+In this module we'll explore how you can leverage Oracle's out-of-the-box Service Metrics & Metric
+explorer to increase your insight into the health of your underlying cloud infrastructure. In order to complete this lab you must have:
+* An active Oracle Cloud Account (Trial is fine)
+* An active compute node
+
+### Guide
+1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
+2.) Using the navigation menu in the upper-left hand corner, select ```Compute```.
+![1.)](/imgs/m1.png?raw=true)  
