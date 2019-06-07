@@ -27,3 +27,7 @@ explorer to increase your insight into the health of your underlying cloud infra
 
 3.) Using the navigation menu in the upper-left hand corner, select ```Monitoring``` and then ```Service Metrics```
 ![1.)](/imgs/m2.png?raw=true)  
+
+4.) With the Service Metrics console open, we need to make sure that we're looking at the appropriate metrics (either Compute, VCN, Storage, etc) for the instances within a given compartment. Set these accordingly.
+![1.)](/imgs/m3.png?raw=true)  
+![1.)](/imgs/m4.png?raw=true)  
