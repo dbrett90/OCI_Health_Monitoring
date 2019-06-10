@@ -19,7 +19,7 @@ explorer to increase your insight into the health of your underlying cloud infra
 * An active Oracle Cloud Account (Trial is fine)
 * An active compute node
 
-### Guide
+### View Metric Charts
 1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
 
 2.) Using the navigation menu in the upper-left hand corner, select ```Compute```.
