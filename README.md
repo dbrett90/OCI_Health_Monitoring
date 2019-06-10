@@ -12,12 +12,13 @@ The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI
 Upon completion of the demo, users should have a deeper understanding of how they can leverage these Tools
 to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
 
-## OCI Service Metrics & Metrics Explorer
 ### Prerequisites
 In this module we'll explore how you can leverage Oracle's out-of-the-box Service Metrics & Metric
 explorer to increase your insight into the health of your underlying cloud infrastructure. In order to complete this lab you must have:
 * An active Oracle Cloud Account (Trial is fine)
 * An active compute node
+
+## OCI Service Metrics & Metrics Explorer
 
 ### View Metric Charts
 1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
@@ -31,3 +32,16 @@ explorer to increase your insight into the health of your underlying cloud infra
 4.) With the Service Metrics console open, we need to make sure that we're looking at the appropriate metrics (either Compute, VCN, Storage, etc) for the instances within a given compartment. Set these accordingly.
 ![1.)](/imgs/m3.png?raw=true)  
 ![1.)](/imgs/m4.png?raw=true)  
+
+### Building Metric Queries
+1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
+![1.)](/imgs/m2.png?raw=true) 
+
+2.) In the Metrics Explorer tab, write and edit queries in Monitoring Query Language (MQL). Fill in the fields for a new query (Compartment, Metric Namespace, Metric Name, Interval, Statistic, Metric Dimensions, Aggregate Metric Streams) and click on <b>Update Chart</b>.
+![1.)](/imgs/m5.png?raw=true)
+
+3.) To customize the Y-Axis Label or range, type the label you want into <b>Y-Axis Label</b> or type the minimum and maximum values you want into <b>Y-Axis Min Value</b> and <b>Y-Axis Max Value</b>.
+![1.)](/imgs/m6.png?raw=true)
+
+
+
