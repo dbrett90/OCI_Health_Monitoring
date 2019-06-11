@@ -41,8 +41,8 @@ explorer to increase your insight into the health of your underlying cloud infra
 * Disk Write Bytes
 * Network Receive Bytes
 * Network Transmit Bytes
-![1.)](/imgs/m5.png?raw=true)
-Note that each of these metrics can be accessed within the Metrics Explorer *LINK TO SECTION BELOW* or can be used to create a corresponding alarm should a metric reach a defined threshold.
+![1.)](/imgs/m5a.png?raw=true)
+Note that each of these metrics can be accessed within the [Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#building-metric-queries) or can be used to create a corresponding alarm should a metric reach a defined threshold.
 
 6.) Service Metrics are also highly customizable. Users can adjust the interval for each metric along with the statistic being shown. Users can see the following statistics for each metric outlined in the previous step:
 * Rate
@@ -55,7 +55,7 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 * 90th Percentile
 * 99th Percentile
 * 99.9 Percentile
-![1.)](/imgs/m6.png?raw=true)
+![1.)](/imgs/m6a.png?raw=true)
 
 ### Building Metric Queries
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
