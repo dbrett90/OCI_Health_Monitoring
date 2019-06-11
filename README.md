@@ -3,8 +3,7 @@ This repository is built specifically for creating a customer-facing demo for OC
 
 ## Overview
 The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI Console. These include:
-* Service Metrics
-* Metrics Explorer
+* [Service Metrics & Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-service-metrics--metrics-explorer)
 * Alarm Status
 * Alarm Definitions
 * Health Checks
@@ -33,6 +32,7 @@ explorer to increase your insight into the health of your underlying cloud infra
 ![1.)](/imgs/m3.png?raw=true)  
 ![1.)](/imgs/m4.png?raw=true)  
 
+<<<<<<< HEAD
 ### Building Metric Queries
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
 ![1.)](/imgs/m2.png?raw=true) 
@@ -45,3 +45,29 @@ explorer to increase your insight into the health of your underlying cloud infra
 
 
 
+=======
+5.) Make sure the start & end date are configured for the period you'd like to monitor. You will now have access to a high level overview for the following fields:
+* CPU Utilization
+* Memory Utilization
+* Disk Read I/O
+* Disk Write I/O
+* Disk Ready Bytes
+* Disk Write Bytes
+* Network Receive Bytes
+* Network Transmit Bytes
+![1.)](/imgs/m5.png?raw=true)
+Note that each of these metrics can be accessed within the Metrics Explorer *LINK TO SECTION BELOW* or can be used to create a corresponding alarm should a metric reach a defined threshold.
+
+6.) Service Metrics are also highly customizable. Users can adjust the interval for each metric along with the statistic being shown. Users can see the following statistics for each metric outlined in the previous step:
+* Rate
+* Sum
+* Mean
+* Min
+* Max
+* Count
+* 50th Percentile
+* 90th Percentile
+* 99th Percentile
+* 99.9 Percentile
+![1.)](/imgs/m6.png?raw=true)
+>>>>>>> master
