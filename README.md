@@ -34,12 +34,12 @@ This procedure walks through creation of an example threshold alarm to detect Co
 * **Alarm Body**: Non-optimal utilization detected. An application or process may be consuming more CPU than usual.
 * **Metric description**: 
   * **Compartment**: (select your compartment)
-  * **Metric Namespace: oci_computeagent
-  * **Metric Name: CpuUtilization
-  * **Interval: 1m
-  * **Statistic: Count
-* **Trigger rule:
-  * **Operator: between
+  * **Metric Namespace: oci_computeagent**
+  * **Metric Name: CpuUtilization**
+  * **Interval: 1m**
+  * **Statistic: Count**
+* **Trigger rule:**
+  * **Operator: between**
   * **Value**: 60
   * **Value**: 80
   * **Trigger Delay Minutes**: 10
@@ -49,7 +49,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
 * **Topic**: Click **Create a topic**
   * **Topic Name**: Operations Team
   * **Topic Description**: Resource Monitoring Channel
-  * **Subscription Protocol: Email
+  * **Subscription Protocol: Email**
   * **Email Addresses**: (type an email address for the operations team here)
 5). Repeat notification every day:
 * **Repeat Notification?**: (select this option)
