@@ -56,7 +56,3 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 * 99th Percentile
 * 99.9 Percentile
 ![1.)](/imgs/m5.png?raw=true)
-
-
-
-Note that the statistic and interval for each of these fields is configurable
