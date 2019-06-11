@@ -24,35 +24,35 @@ In this module we'll explore how to create, update, suppress, and delete alarms 
 
 This procedure walks through creation of an example threshold alarm to detect Compute instances operating at non-optimal thresholds. A **Threshold Alarm** is an alarm that checks for metric values outside a given range or value. The procedure uses options as displayed in Basic Mode.  
 
-1). Open the navigation menu. Under ```Solutions, Platform and Edge```, go to ```Monitoring``` and click ```Alarm Definitions.```
+1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Monitoring** and click **Alarm Definitions.**
 
-2). Click ```Create Alarm```
+2). Click **Create Alarm**
 
-3). On the Create Alarm page, under Define alarm, fill in or update the alarm settings:
-* Alarm Name: Non-Optimal Alarm
-* Alarm Severity: Warning
-* Alarm Body: Non-optimal utilization detected. An application or process may be consuming more CPU than usual.
-* Metric description: 
-  * Compartment: (select your compartment)
-  * Metric Namespace: oci_computeagent
-  * Metric Name: CpuUtilization
-  * Interval: 1m
-  * Statistic: Count
-* Trigger rule:
-  * Operator: between
-  * Value: 60
-  * Value: 80
-  * Trigger Delay Minutes: 10
-4). Set up an email notification under ```Notifications, Destinations:```
-* Destination Service: Notifications Service
-* Compartment: (select your compartment)
-* Topic: Click Create a topic
-  * Topic Name: Operations Team
-  * Topic Description: Resource Monitoring Channel
-  * Subscription Protocol: Email
-  * Email Addresses: (type an email address for the operations team here)
+3). On the **Create Alarm** page, under **Define alarm**, fill in or update the alarm settings:
+* **Alarm Name**: Non-Optimal Alarm
+* **Alarm Severity**: Warning
+* **Alarm Body**: Non-optimal utilization detected. An application or process may be consuming more CPU than usual.
+* **Metric description**: 
+  * **Compartment**: (select your compartment)
+  * **Metric Namespace: oci_computeagent
+  * **Metric Name: CpuUtilization
+  * **Interval: 1m
+  * **Statistic: Count
+* **Trigger rule:
+  * **Operator: between
+  * **Value**: 60
+  * **Value**: 80
+  * **Trigger Delay Minutes**: 10
+4). Set up an email notification under **Notifications, Destinations:**
+* **Destination Service**: Notifications Service
+* **Compartment**: (select your compartment)
+* **Topic**: Click **Create a topic**
+  * **Topic Name**: Operations Team
+  * **Topic Description**: Resource Monitoring Channel
+  * **Subscription Protocol: Email
+  * **Email Addresses**: (type an email address for the operations team here)
 5). Repeat notification every day:
-* Repeat Notification?: (select this option)
-* Notification Interval: 24 hours
-6). Click Save alarm.
+* **Repeat Notification?**: (select this option)
+* **Notification Interval**: 24 hours
+6). Click **Save alarm**.
 
