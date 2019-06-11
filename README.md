@@ -19,7 +19,7 @@ In this module we'll explore how to create, update, suppress, and delete alarms 
 
 ### Guide
 
-#### To create an example threshold alarm
+## To create an example threshold alarm
 
 This procedure walks through creation of an example threshold alarm to detect Compute instances operating at non-optimal thresholds. A **Threshold Alarm** is an alarm that checks for metric values outside a given range or value. The procedure uses options as displayed in Basic Mode.  
 
@@ -42,6 +42,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
   * **Value**: 60
   * **Value**: 80
   * **Trigger Delay Minutes**: 10
+  
 4). Set up an email notification under **Notifications, Destinations:**
 * **Destination Service**: Notifications Service
 * **Compartment**: (select your compartment)
@@ -50,12 +51,14 @@ This procedure walks through creation of an example threshold alarm to detect Co
   * **Topic Description**: Resource Monitoring Channel
   * **Subscription Protocol: Email**
   * **Email Addresses**: (type an email address for the operations team here)
+  
 5). Repeat notification every day:
 * **Repeat Notification?**: (select this option)
 * **Notification Interval**: 24 hours
+
 6). Click **Save alarm**.
 
-#### To create an example absence alarm
+## To create an example absence alarm
 
 This procedure walks through creation of an example absence alarm to detect resources that may be down or unreachable. An **Absence Alarm** is an alarm that checks for absent metrics (using the absent operator). The procedure uses options as displayed in Basic Mode.
 
@@ -76,6 +79,7 @@ This procedure walks through creation of an example absence alarm to detect reso
 * **Trigger rule:**
   * **Operator: absent**
   * **Trigger Delay Minutes**: 5
+  
 4). Set up an email notification under **Notifications, Destinations:**
 * **Destination Service**: Notifications Service
 * **Compartment**: (select your compartment)
@@ -84,7 +88,9 @@ This procedure walks through creation of an example absence alarm to detect reso
   * **Topic Description**: Resource Up/Down Channel
   * **Subscription Protocol: Email**
   * **Email Addresses**: (type an email address for the operations team here)
+  
 5). Repeat notification every day:
 * **Repeat Notification?**: (select this option)
 * **Notification Interval**: 1 minute
+
 6). Click **Save alarm**.
