@@ -32,20 +32,6 @@ explorer to increase your insight into the health of your underlying cloud infra
 ![1.)](/imgs/m3.png?raw=true)  
 ![1.)](/imgs/m4.png?raw=true)  
 
-<<<<<<< HEAD
-### Building Metric Queries
-1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
-![1.)](/imgs/m2.png?raw=true) 
-
-2.) In the Metrics Explorer tab, write and edit queries in Monitoring Query Language (MQL). Fill in the fields for a new query (Compartment, Metric Namespace, Metric Name, Interval, Statistic, Metric Dimensions, Aggregate Metric Streams) and click on <b>Update Chart</b>.
-![1.)](/imgs/m5.png?raw=true)
-
-3.) To customize the Y-Axis Label or range, type the label you want into <b>Y-Axis Label</b> or type the minimum and maximum values you want into <b>Y-Axis Min Value</b> and <b>Y-Axis Max Value</b>.
-![1.)](/imgs/m6.png?raw=true)
-
-
-
-=======
 5.) Make sure the start & end date are configured for the period you'd like to monitor. You will now have access to a high level overview for the following fields:
 * CPU Utilization
 * Memory Utilization
@@ -70,4 +56,14 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 * 99th Percentile
 * 99.9 Percentile
 ![1.)](/imgs/m6.png?raw=true)
->>>>>>> master
+
+<<<<<<< HEAD
+### Building Metric Queries
+1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
+![1.)](/imgs/m2.png?raw=true)
+
+2.) In the Metrics Explorer tab, write and edit queries in Monitoring Query Language (MQL). Fill in the fields for a new query (Compartment, Metric Namespace, Metric Name, Interval, Statistic, Metric Dimensions, Aggregate Metric Streams) and click on <b>Update Chart</b>.
+![1.)](/imgs/m5.png?raw=true)
+
+3.) To customize the Y-Axis Label or range, type the label you want into <b>Y-Axis Label</b> or type the minimum and maximum values you want into <b>Y-Axis Min Value</b> and <b>Y-Axis Max Value</b>.
+![1.)](/imgs/m6.png?raw=true)
