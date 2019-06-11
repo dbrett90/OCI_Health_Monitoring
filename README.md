@@ -15,7 +15,8 @@ to monitor their cloud infrastructure at a high level. For information regarding
 In this module we'll explore how you can leverage Oracle's out-of-the-box Service Metrics & Metric
 explorer to increase your insight into the health of your underlying cloud infrastructure. In order to complete this lab you must have:
 * An active Oracle Cloud Account (Trial is fine)
-* An active compute node
+* [An active compute node](https://oracle.github.io/learning-library/oci-library/)
+* IAM Policy in place that allows users to manage monitoring resources
 
 ## OCI Service Metrics & Metrics Explorer
 
