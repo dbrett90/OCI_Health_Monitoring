@@ -3,7 +3,8 @@ This repository is built specifically for creating a customer-facing demo for OC
 
 ## Overview
 The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI Console. These include:
-* [Service Metrics & Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-service-metrics--metrics-explorer)
+* [Service Metrics](https://github.com/dbrett90/OCI_Health_Monitoring#oci-service-metrics)
+* [Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-metrics-explorer)
 * Alarm Status
 * Alarm Definitions
 * Health Checks
@@ -18,9 +19,8 @@ explorer to increase your insight into the health of your underlying cloud infra
 * [An active compute node](https://oracle.github.io/learning-library/oci-library/)
 * IAM Policy in place that allows users to manage monitoring resources
 
-## OCI Service Metrics & Metrics Explorer
+## OCI Service Metrics
 
-### View Metric Charts
 1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
 
 2.) Using the navigation menu in the upper-left hand corner, select ```Compute```.
@@ -43,7 +43,7 @@ explorer to increase your insight into the health of your underlying cloud infra
 * Network Receive Bytes
 * Network Transmit Bytes
 ![1.)](/imgs/m5a.png?raw=true)
-Note that each of these metrics can be accessed within the [Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#building-metric-queries) or can be used to create a corresponding alarm should a metric reach a defined threshold.
+Note that each of these metrics can be accessed within the [Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-metric-explorer) or can be used to create a corresponding alarm should a metric reach a defined threshold.
 
 6.) Service Metrics are also highly customizable. Users can adjust the interval for each metric along with the statistic being shown. Users can see the following statistics for each metric outlined in the previous step:
 * Rate
@@ -58,7 +58,7 @@ Note that each of these metrics can be accessed within the [Metrics Explorer](ht
 * 99.9 Percentile
 ![1.)](/imgs/m6a.png?raw=true)
 
-### Building Metric Queries
+## OCI Metrics Explorer
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
 ![1.)](/imgs/m2.png?raw=true)
 
