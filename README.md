@@ -67,6 +67,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
 * **Notification Interval**: 24 hours
 
 6). Click **Save alarm**.
+
 ![1.)](/imgs/p8.png?raw=true)
 
 ## To create an example absence alarm
