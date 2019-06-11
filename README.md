@@ -24,6 +24,7 @@ In this module we'll explore how to create, update, suppress, and delete alarms 
 This procedure walks through creation of an example threshold alarm to detect Compute instances operating at non-optimal thresholds. A **Threshold Alarm** is an alarm that checks for metric values outside a given range or value. The procedure uses options as displayed in Basic Mode.  
 
 1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Monitoring** and click **Alarm Definitions.**
+![1.)](/imgs/p1.png?raw=true)
 
 2). Click **Create Alarm**
 
