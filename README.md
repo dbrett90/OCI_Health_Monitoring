@@ -31,3 +31,32 @@ explorer to increase your insight into the health of your underlying cloud infra
 4.) With the Service Metrics console open, we need to make sure that we're looking at the appropriate metrics (either Compute, VCN, Storage, etc) for the instances within a given compartment. Set these accordingly.
 ![1.)](/imgs/m3.png?raw=true)  
 ![1.)](/imgs/m4.png?raw=true)  
+
+5.) Make sure the start & end date are configured for the period you'd like to monitor. You will now have access to a high level overview for the following fields:
+* CPU Utilization
+* Memory Utilization
+* Disk Read I/O
+* Disk Write I/O
+* Disk Ready Bytes
+* Disk Write Bytes
+* Network Receive Bytes
+* Network Transmit Bytes
+![1.)](/imgs/m5.png?raw=true)
+Note that each of these metrics can be accessed within the Metrics Explorer *LINK TO SECTION BELOW* or can be used to create a corresponding alarm should a metric reach a defined threshold.
+
+6.) Service Metrics are also highly customizable. Users can adjust the interval for each metric along with the statistic being shown. Users can see the following statistics for each metric outlined in the previous step:
+* Rate
+* Sum
+* Mean
+* Min
+* Max
+* Count
+* 50th Percentile
+* 90th Percentile
+* 99th Percentile
+* 99.9 Percentile
+![1.)](/imgs/m5.png?raw=true)
+
+
+
+Note that the statistic and interval for each of these fields is configurable
