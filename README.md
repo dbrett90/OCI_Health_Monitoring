@@ -3,8 +3,7 @@ This repository is built specifically for creating a customer-facing demo for OC
 
 ## Overview
 The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI Console. These include:
-* Service Metrics
-* Metrics Explorer
+* [Service Metrics & Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-service-metrics--metrics-explorer)
 * Alarm Status
 * Alarm Definitions
 * Health Checks
