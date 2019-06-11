@@ -57,7 +57,6 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 * 99.9 Percentile
 ![1.)](/imgs/m6.png?raw=true)
 
-<<<<<<< HEAD
 ### Building Metric Queries
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
 ![1.)](/imgs/m2.png?raw=true)
@@ -67,7 +66,4 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 
 3.) To customize the Y-Axis Label or range, type the label you want into <b>Y-Axis Label</b> or type the minimum and maximum values you want into <b>Y-Axis Min Value</b> and <b>Y-Axis Max Value</b>.
 ![1.)](/imgs/m6.png?raw=true)
-
-
-
-=======
+<<<<<<< HEAD
