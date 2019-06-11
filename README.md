@@ -55,4 +55,4 @@ Note that each of these metrics can be accessed within the Metrics Explorer *LIN
 * 90th Percentile
 * 99th Percentile
 * 99.9 Percentile
-![1.)](/imgs/m5.png?raw=true)
+![1.)](/imgs/m6.png?raw=true)
