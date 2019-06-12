@@ -12,7 +12,7 @@ The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI
 Upon completion of the demo, users should have a deeper understanding of how they can leverage these Tools
 to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
 
-### Prerequisites
+## Prerequisites
 In this module we'll explore how you can leverage Oracle's out-of-the-box Service Metrics & Metric
 explorer to increase your insight into the health of your underlying cloud infrastructure. In order to complete this lab you must have:
 * An active Oracle Cloud Account (Trial is fine)
@@ -62,8 +62,29 @@ Note that each of these metrics can be accessed within the [Metrics Explorer](ht
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
 ![1.)](/imgs/m2.png?raw=true)
 
-2.) In the Metrics Explorer tab, write and edit queries in Monitoring Query Language (MQL). Fill in the fields for a new query (Compartment, Metric Namespace, Metric Name, Interval, Statistic, Metric Dimensions, Aggregate Metric Streams) and click on <b>Update Chart</b>.
+2.) In the Metrics Explorer tab, write and edit queries by filling in the fields: 
+* <b>Compartment</b>: The compartment containing the resources that you want to monitor. By default, the first accessible compartment is selected.
+* <b>Metric Namespace</b>: The service or application emitting metrics for the resources that you want to monitor.
+* <b>Metric Name</b>: The name of the metric. Only one metric can be specified. Metric selections depend on the selected compartment and metric namespace. Example: <b>CpuUtilization</b>
+* <b>Interval</b>: The aggregation window.
+* <b>Statistic</b>: The aggregation function.
+* <b>Metric Dimensions</b>: Optional filters to narrow the metric data evaluated.
+* <b>Aggregate Metric Streams</b>: Aggregates all results to plot a single aggregated average for all metric sstreams. This average is plotted as a single line on the metric chart. This operation is helpful when you want to plot a metric as one line for all resources.
+
 ![1.)](/imgs/m5.png?raw=true)
+Then click on <b>Update Chart</b>.
+
 
 3.) To customize the Y-Axis Label or range, type the label you want into <b>Y-Axis Label</b> or type the minimum and maximum values you want into <b>Y-Axis Min Value</b> and <b>Y-Axis Max Value</b>.
 ![1.)](/imgs/m6.png?raw=true)
+
+4.) To view the query as a Monitoring Query Language (MQL) expression, click <b>Advanced Mode</b>.
+![1.)](/imgs/ADV_mode_in_metric_exp.png?raw=true)
+Use Advanced Mode to edit your query using MQL syntax to aggregate results by group. The MQL syntax also supports additional parameter values.
+
+5.) To share the query you can click on <b>Advanced Mode</b> and copy the text in the <b>Query Code Editor</b> box.
+![1.)](/imgs/share_query.png?raw=true)
+
+6.) To hide a query from the chart we can click on the <b>Toggle query on chart</b> icon.
+![1.)](/imgs/toggle_query.png?raw=true)
+
