@@ -70,7 +70,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
 
 ![1.)](/imgs/p8.png?raw=true)
 
-### Results: Two alarms fire inside the **Alarm Status** page when a compute instance is triggered.
+### Example Results: 
 ![1.)](/imgs/p14.png?raw=true)
 
 
