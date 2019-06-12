@@ -75,8 +75,10 @@ This procedure walks through creation of an example threshold alarm to detect Co
 This procedure walks through creation of an example absence alarm to detect resources that may be down or unreachable. An **Absence Alarm** is an alarm that checks for absent metrics (using the absent operator). The procedure uses options as displayed in Basic Mode.
 
 1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Monitoring** and click **Alarm Definitions.**
+![1.)](/imgs/p1.png?raw=true)
 
 2). Click **Create Alarm**
+![1.)](/imgs/p2.png?raw=true)
 
 3). On the **Create Alarm** page, under **Define alarm**, fill in or update the alarm settings:
 * **Alarm Name**: Up/Down Resource Alarm
@@ -96,6 +98,8 @@ This procedure walks through creation of an example absence alarm to detect reso
 * **Destination Service**: Notifications Service
 * **Compartment**: (select your compartment)
 * **Topic**: Click **Create a topic**
+![1.)](/imgs/p6.png?raw=true)
+
   * **Topic Name**: Operations Team
   * **Topic Description**: Resource Up/Down Channel
   * **Subscription Protocol: Email**
