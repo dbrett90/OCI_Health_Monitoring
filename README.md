@@ -84,15 +84,20 @@ This procedure walks through creation of an example absence alarm to detect reso
 * **Alarm Name**: Up/Down Resource Alarm
 * **Alarm Severity**: Critical
 * **Alarm Body**: Resource may be down. Please investigate. Move workloads to another available resource.
+![1.)](/imgs/p9.png?raw=true)
+
 * **Metric description**: 
   * **Compartment**: (select your compartment)
   * **Metric Namespace: oci_computeagent**
   * **Metric Name: CpuUtilization**
   * **Interval: 1m**
   * **Statistic: Count**
+![1.)](/imgs/p10.png?raw=true)
+  
 * **Trigger rule:**
   * **Operator: absent**
   * **Trigger Delay Minutes**: 5
+![1.)](/imgs/p11.png?raw=true)
   
 4). Set up an email notification under **Notifications, Destinations:**
 * **Destination Service**: Notifications Service
@@ -104,9 +109,11 @@ This procedure walks through creation of an example absence alarm to detect reso
   * **Topic Description**: Resource Up/Down Channel
   * **Subscription Protocol: Email**
   * **Email Addresses**: (type an email address for the operations team here)
+![1.)](/imgs/p12.png?raw=true)
   
 5). Repeat notification every day:
 * **Repeat Notification?**: (select this option)
 * **Notification Interval**: 1 minute
 
 6). Click **Save alarm**.
+![1.)](/imgs/p13.png?raw=true)
