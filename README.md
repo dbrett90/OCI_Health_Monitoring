@@ -116,4 +116,5 @@ This procedure walks through creation of an example absence alarm to detect reso
 * **Notification Interval**: 1 minute
 
 6). Click **Save alarm**.
+
 ![1.)](/imgs/p13.png?raw=true)
