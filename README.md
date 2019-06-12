@@ -70,6 +70,10 @@ This procedure walks through creation of an example threshold alarm to detect Co
 
 ![1.)](/imgs/p8.png?raw=true)
 
+### Results: Two alarms fire inside the **Alarm Status** page when a compute instance is triggered.
+![1.)](/imgs/p14.png?raw=true)
+
+
 ## To create an example absence alarm
 
 This procedure walks through creation of an example absence alarm to detect resources that may be down or unreachable. An **Absence Alarm** is an alarm that checks for absent metrics (using the absent operator). The procedure uses options as displayed in Basic Mode.
