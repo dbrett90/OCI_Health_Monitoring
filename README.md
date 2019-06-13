@@ -45,8 +45,8 @@ This procedure walks through creation of an example threshold alarm to detect Co
   
 * **Trigger rule:**
   * **Operator: between**
+  * **Value**: 5
   * **Value**: 60
-  * **Value**: 80
   * **Trigger Delay Minutes**: 10
 ![1.)](/imgs/p5.png?raw=true)
   
