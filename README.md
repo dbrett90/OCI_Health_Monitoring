@@ -71,7 +71,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
 ![1.)](/imgs/p8.png?raw=true)
 
 ### Example Results: 
-![1.)](/imgs/p14.png?raw=true)
+![1.)](/imgs/p15.png?raw=true)
 
 
 ## To create an example absence alarm
@@ -122,3 +122,6 @@ This procedure walks through creation of an example absence alarm to detect reso
 6). Click **Save alarm**.
 
 ![1.)](/imgs/p13.png?raw=true)
+
+### Example Results: 
+![1.)](/imgs/p16.png?raw=true)
