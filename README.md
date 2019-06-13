@@ -48,7 +48,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
   * **Value**: 5
   * **Value**: 60
   * **Trigger Delay Minutes**: 10
-![1.)](/imgs/p5.png?raw=true)
+![1.)](/imgs/p17.png?raw=true)
   
 4). Set up an email notification under **Notifications, Destinations:**
 * **Destination Service**: Notifications Service
@@ -71,7 +71,7 @@ This procedure walks through creation of an example threshold alarm to detect Co
 ![1.)](/imgs/p8.png?raw=true)
 
 ### Example Results: 
-![1.)](/imgs/p17.png?raw=true)
+![1.)](/imgs/p15.png?raw=true)
 
 
 ## To create an example absence alarm
