@@ -6,7 +6,6 @@ The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI
 * [Service Metrics](https://github.com/dbrett90/OCI_Health_Monitoring#oci-service-metrics)
 * [Metrics Explorer](https://github.com/dbrett90/OCI_Health_Monitoring#oci-metrics-explorer)
 * [Alarm Status & Alarm Definitions](https://github.com/dbrett90/OCI_Health_Monitoring#oci-alarm-status--definitions)
-* Health Checks
 
 Upon completion of the demo, users should have a deeper understanding of how they can leverage these Tools
 to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
