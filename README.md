@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # OCI Health & Monitoring Demo
 This repository is built specifically for creating a customer-facing demo for OCI Health &amp; Monitoring Tools
 
@@ -88,7 +87,7 @@ Use Advanced Mode to edit your query using MQL syntax to aggregate results by gr
 
 6.) To hide a query from the chart we can click on the <b>Toggle query on chart</b> icon.
 ![1.)](/imgs/toggle_query.png?raw=true)
-=======
+
 ## OCI Monitoring - Alarm Status/Definitions
 ### To create an example threshold alarm
 
@@ -196,4 +195,3 @@ This procedure walks through creation of an example absence alarm to detect reso
 
 ### Example Results: 
 ![1.)](/imgs/p16.png?raw=true)
->>>>>>> Alarm-Definitions
