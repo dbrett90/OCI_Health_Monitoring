@@ -1,4 +1,4 @@
-# OCI Monitoring - Alarm Status/Definitions
+# OCI Health & Monitoring Demo
 This repository is built specifically for creating a customer-facing demo for OCI Health &amp; Monitoring Tools
 
 ## Overview
@@ -12,31 +12,23 @@ The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI
 Upon completion of the demo, users should have a deeper understanding of how they can leverage these Tools
 to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
 
-<<<<<<< HEAD
 ## Prerequisites
 In this module we'll explore how you can leverage Oracle's out-of-the-box Service Metrics & Metric
 explorer to increase your insight into the health of your underlying cloud infrastructure. In order to complete this lab you must have:
-=======
-### Prerequisites
-In this module we'll explore how to create, update, suppress, and delete alarms , as well as how to retrieve alarm history. In order to complete this lab you must have:
->>>>>>> Alarm-Definitions
 * An active Oracle Cloud Account (Trial is fine)
 * [An active compute node](https://oracle.github.io/learning-library/oci-library/)
 * IAM Policy in place that allows users to manage monitoring resources
 
 ## OCI Service Metrics
 
-<<<<<<< HEAD
 1.) Navigate to the following [link](https://cloud.oracle.com/home) & log in with your credentials.
-=======
-### Guide
->>>>>>> Alarm-Definitions
 
-## To create an example threshold alarm
+2.) Using the navigation menu in the upper-left hand corner, select ```Compute```.
+![1.)](/imgs/m1.png?raw=true)  
 
-This procedure walks through creation of an example threshold alarm to detect Compute instances operating at non-optimal thresholds. A **Threshold Alarm** is an alarm that checks for metric values outside a given range or value. The procedure uses options as displayed in Basic Mode.  
+3.) Using the navigation menu in the upper-left hand corner, select ```Monitoring``` and then ```Service Metrics```
+![1.)](/imgs/m2.png?raw=true)  
 
-<<<<<<< HEAD
 4.) With the Service Metrics console open, we need to make sure that we're looking at the appropriate metrics (either Compute, VCN, Storage, etc) for the instances within a given compartment. Set these accordingly.
 ![1.)](/imgs/m3.png?raw=true)  
 ![1.)](/imgs/m4.png?raw=true)  
@@ -70,7 +62,7 @@ Note that each of these metrics can be accessed within the [Metrics Explorer](ht
 1.) Refer back to the section ```View Metric Charts``` Step 3 and select ```Metrics Explorer```
 ![1.)](/imgs/m2.png?raw=true)
 
-2.) In the Metrics Explorer tab, write and edit queries by filling in the fields: 
+2.) In the Metrics Explorer tab, write and edit queries by filling in the fields:
 * <b>Compartment</b>: The compartment containing the resources that you want to monitor. By default, the first accessible compartment is selected.
 * <b>Metric Namespace</b>: The service or application emitting metrics for the resources that you want to monitor.
 * <b>Metric Name</b>: The name of the metric. Only one metric can be specified. Metric selections depend on the selected compartment and metric namespace. Example: <b>CpuUtilization</b>
@@ -95,108 +87,3 @@ Use Advanced Mode to edit your query using MQL syntax to aggregate results by gr
 
 6.) To hide a query from the chart we can click on the <b>Toggle query on chart</b> icon.
 ![1.)](/imgs/toggle_query.png?raw=true)
-
-=======
-1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Monitoring** and click **Alarm Definitions.**
-![1.)](/imgs/p1.png?raw=true)
-
-2). Click **Create Alarm**
-![1.)](/imgs/p2.png?raw=true)
-
-3). On the **Create Alarm** page, under **Define alarm**, fill in or update the alarm settings:
-* **Alarm Name**: Non-Optimal Alarm
-* **Alarm Severity**: Warning
-* **Alarm Body**: Non-optimal utilization detected. An application or process may be consuming more CPU than usual.
-![1.)](/imgs/p3.png?raw=true)
-
-* **Metric description**: 
-  * **Compartment**: (select your compartment)
-  * **Metric Namespace: oci_computeagent**
-  * **Metric Name: CpuUtilization**
-  * **Interval: 1m**
-  * **Statistic: Count**
-![1.)](/imgs/p4.png?raw=true)
-  
-* **Trigger rule:**
-  * **Operator: between**
-  * **Value**: 5
-  * **Value**: 60
-  * **Trigger Delay Minutes**: 10
-![1.)](/imgs/p17.png?raw=true)
-  
-4). Set up an email notification under **Notifications, Destinations:**
-* **Destination Service**: Notifications Service
-* **Compartment**: (select your compartment)
-* **Topic**: Click **Create a topic**
-![1.)](/imgs/p6.png?raw=true)
-
-  * **Topic Name**: Operations Team
-  * **Topic Description**: Resource Monitoring Channel
-  * **Subscription Protocol: Email**
-  * **Email Addresses**: (type an email address for the operations team here)
-![1.)](/imgs/p7.png?raw=true)
-  
-5). Repeat notification every day:
-* **Repeat Notification?**: (select this option)
-* **Notification Interval**: 24 hours
-
-6). Click **Save alarm**.
-
-![1.)](/imgs/p8.png?raw=true)
-
-### Example Results: 
-![1.)](/imgs/p15.png?raw=true)
-
-
-## To create an example absence alarm
-
-This procedure walks through creation of an example absence alarm to detect resources that may be down or unreachable. An **Absence Alarm** is an alarm that checks for absent metrics (using the absent operator). The procedure uses options as displayed in Basic Mode.
-
-1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Monitoring** and click **Alarm Definitions.**
-![1.)](/imgs/p1.png?raw=true)
-
-2). Click **Create Alarm**
-![1.)](/imgs/p2.png?raw=true)
-
-3). On the **Create Alarm** page, under **Define alarm**, fill in or update the alarm settings:
-* **Alarm Name**: Up/Down Resource Alarm
-* **Alarm Severity**: Critical
-* **Alarm Body**: Resource may be down. Please investigate. Move workloads to another available resource.
-![1.)](/imgs/p9.png?raw=true)
-
-* **Metric description**: 
-  * **Compartment**: (select your compartment)
-  * **Metric Namespace: oci_computeagent**
-  * **Metric Name: CpuUtilization**
-  * **Interval: 1m**
-  * **Statistic: Count**
-![1.)](/imgs/p10.png?raw=true)
-  
-* **Trigger rule:**
-  * **Operator: absent**
-  * **Trigger Delay Minutes**: 5
-![1.)](/imgs/p11.png?raw=true)
-  
-4). Set up an email notification under **Notifications, Destinations:**
-* **Destination Service**: Notifications Service
-* **Compartment**: (select your compartment)
-* **Topic**: Click **Create a topic**
-![1.)](/imgs/p6.png?raw=true)
-
-  * **Topic Name**: Operations Team
-  * **Topic Description**: Resource Up/Down Channel
-  * **Subscription Protocol: Email**
-  * **Email Addresses**: (type an email address for the operations team here)
-![1.)](/imgs/p12.png?raw=true)
-  
-5). Repeat notification every day:
-* **Repeat Notification?**: (select this option)
-* **Notification Interval**: 1 minute
-
-6). Click **Save alarm**.
-
-![1.)](/imgs/p13.png?raw=true)
-
-### Example Results: 
-![1.)](/imgs/p16.png?raw=true)
->>>>>>> Alarm-Definitions
