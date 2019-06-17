@@ -1,25 +1,5 @@
-# OCI Monitoring - Alarm Status/Definitions
-This repository is built specifically for creating a customer-facing demo for OCI Health &amp; Monitoring Tools
-
-## Overview
-The OCI Health and Monitoring Demo will cover 5 specific tools native to the OCI Console. These include:
-* Service Metrics
-* Metrics Explorer
-* Alarm Status
-* Alarm Definitions
-* Health Checks
-
-Upon completion of the demo, users should have a deeper understanding of how they can leverage these Tools
-to monitor their cloud infrastructure at a high level. For information regarding deeper & more expansive monitoring see the links for [Oracle CASB](https://docs.oracle.com/en/cloud/paas/casb-cloud/palug/toc.htm) & [Oracle Management Cloud](https://docs.oracle.com/en/cloud/paas/management-cloud/index.html).
-
-### Prerequisites
-In this module we'll explore how to create, update, suppress, and delete alarms , as well as how to retrieve alarm history. In order to complete this lab you must have:
-* An active Oracle Cloud Account (Trial is fine)
-* An active compute node
-
-### Guide
-
-## To create an example threshold alarm
+## OCI Monitoring - Alarm Status/Definitions
+### To create an example threshold alarm
 
 This procedure walks through creation of an example threshold alarm to detect Compute instances operating at non-optimal thresholds. A **Threshold Alarm** is an alarm that checks for metric values outside a given range or value. The procedure uses options as displayed in Basic Mode.  
 
