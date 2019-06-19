@@ -193,3 +193,40 @@ This procedure walks through creation of an example absence alarm to detect reso
 
 ### Example Results:
 ![1.)](/imgs/p16.png?raw=true)
+
+## OCI Health Checks
+
+* The Oracle Cloud Infrastructure Health Checks service provides users with high frequency external monitoring to determine the availability and performance of any publicly facing service, including hosted websites, API endpoints, or externally facing load balancers. By using Health Checks, users can ensure that they are immediately aware of any availability issue affecting their customers.
+
+* **NOTE: The Oracle Cloud Infrastructure Health Checks service is limited to 1000 endpoint tests per account.**
+
+1). Open the navigation menu. Under **Solutions, Platform and Edge**, go to **Edge Services** and click **Health Checks**
+![1.)](/imgs/h1.png?raw=true)
+
+2). Click **Create Health Check**
+![1.)](/imgs/h2.png?raw=true)
+
+3). In the **Create Health Check** dialog box, enter the following:
+ * **Health Check Name**: The name used for the health check. Avoid entering confidential information.
+ * **Compartment**: Select the compartment the health check runs in.
+ * **Target**: The IP address(es) of the host being monitored.
+ ![1.)](/imgs/h3.png?raw=true)
+ 
+ * **Vantage Point(s)**: Select the location from which the health of the target is monitored. No more than ten vantage points can be added.
+ * **Type**: Select the type of request sent to monitor the target.
+ * **Protocol**: The network protocol used to interact with your endpoint, such as HTTP protocol, which initializes an HTTP handshake with your endpoint.
+ * **Port**: The port for the monitor to look for a connection. The default is port 80. For HTTPS, use port 8080.
+ * **Path (Optional)**: The specific path on the target to be monitored.
+ * **Header Name**: (Optional) The name displayed in the request header as part of the health check. Avoid entering confidential information.
+ * **Header Value**: (Optional) Specifies the data requested by the header. Click + Add Header to add multiple headers in succession.
+ ![1.)](/imgs/h4.png?raw=true)
+ 
+ * **Method**: Select the HTTP method used for the health check.
+ * **Interval**: Select the period of time between health checks of the target.
+ * **Timeout**: Select the maximum time to wait for a reply before marking the health check as failed.
+
+4). Click **Create Health Check**.
+![1.)](/imgs/h5.png?raw=true)
+
+### Example Results:
+![1.)](/imgs/h6.png?raw=true)
